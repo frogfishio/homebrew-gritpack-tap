@@ -22,7 +22,7 @@ brew upgrade --formula frogfishio/gritpack-tap/gritpack
 If the legacy `frogfishio/gritpack` tap is installed, migrate with:
 
 ```sh
-brew untap frogfishio/gritpack
+brew untap --force frogfishio/gritpack
 brew tap frogfishio/gritpack-tap
 brew trust --formula frogfishio/gritpack-tap/gritpack
 brew install --formula frogfishio/gritpack-tap/gritpack
