@@ -1,9 +1,9 @@
 class Gritpack < Formula
   desc "Multi-language package manager and package hub"
   homepage "https://frogfish.io"
-  url "https://github.com/frogfishio/homebrew-gritpack/releases/download/v1.2.5/gritpack-1.2.5-aarch64-apple-darwin.tar.gz"
-  version "1.2.5"
-  sha256 "b8b9cd41670fe667ee40c9b6cfdc23b7b2e97c126a1008f08c9ba8ba57192af7"
+  url "https://github.com/frogfishio/homebrew-gritpack/releases/download/v1.2.6/gritpack-1.2.6-aarch64-apple-darwin.tar.gz"
+  version "1.2.6"
+  sha256 "252c3af6bb3bfacfb179d2bdfe7b1eb92cfa17ab9cf91741e79df16bebd6616c"
   license "LicenseRef-Gritpack-Proprietary"
 
   depends_on arch: :arm64
